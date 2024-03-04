@@ -112,7 +112,9 @@ ul {
 }
 
 .address-list-item:hover,
-.address-list-item:focus {
+.address-list-item:focus,
+.navigation-menu-item-link:hover,
+.navigation-menu-item-link:focus {
   color: var(--ocean);
 }
 
