@@ -30,6 +30,11 @@ a {
   color: inherit;
 }
 
+a:hover,
+a:focus {
+  color: var(--ocean);
+}
+
 ul {
   list-style: none;
 }
@@ -109,13 +114,6 @@ ul {
 .button:focus {
   background-color: var(--ocean);
   color: var(--white);
-}
-
-.address-list-item:hover,
-.address-list-item:focus,
-.navigation-menu-item-link:hover,
-.navigation-menu-item-link:focus {
-  color: var(--ocean);
 }
 
 .hero-section {
